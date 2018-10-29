@@ -13,11 +13,10 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 -If the cards do not match, both cards are flipped face down.  
 -The game ends once all cards have been correctly matched.  
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
+## Star Rating
+-The player earns 3 stars if he/she plays a perfect game (matches all 16 cards in 16 moves).    
+-The player earns 2 stars if he/she matches all 16 cards in 17 to 30 moves.   
+-The player earns 1 star if he/she matches all 16 cards in over 30 moves.  
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
