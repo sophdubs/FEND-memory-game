@@ -12,6 +12,7 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 -If the cards match, both cards stay flipped over.  
 -If the cards do not match, both cards are flipped face down.  
 -The game ends once all cards have been correctly matched.  
+-A modal will appear with the players win time, star rating, and option to play again. 
 
 
 ## Star Rating
@@ -20,3 +21,5 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 -The player earns 1 star if he/she matches all 16 cards in over 30 moves.  
 
 
+## Resources
+Project rules and guidelines, as well as starter code for the gameboard all provided by Udacity and available at https://github.com/udacity/fend-project-memory-game
