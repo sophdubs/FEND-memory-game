@@ -21,5 +21,8 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 -The player earns 1 star if he/she matches all 16 cards in over 30 moves.  
 
 
+#Game Dependencies
+
+
 ## Resources
 Project rules and guidelines, as well as starter code for the gameboard all provided by Udacity and available at https://github.com/udacity/fend-project-memory-game
