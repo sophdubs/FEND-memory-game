@@ -7,7 +7,7 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 
 
 ## Game Rules
--The player flips one card over to reveal its underlying symbol.__
+-The player flips one card over to reveal its underlying symbol.\
 -The player then turns over a second card, trying to find the corresponding card with the same symbol.__
 -If the cards match, both cards stay flipped over.__
 -If the cards do not match, both cards are flipped face down.__
