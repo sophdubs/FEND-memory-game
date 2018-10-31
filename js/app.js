@@ -1,13 +1,13 @@
 
 //Declared variables;
-const cardIcons = ['fa-cube', 'fa-cube',
-                'fa-diamond', 'fa-diamond',
-                'fa-paper-plane-o', 'fa-paper-plane-o',
-                'fa-anchor', 'fa-anchor',
-                'fa-bolt', 'fa-bolt',
-                'fa-bicycle', 'fa-bicycle',
-                'fa-leaf', 'fa-leaf',
-                'fa-bomb', 'fa-bomb'
+let cardIcons = ['fa-cube',
+                'fa-diamond',
+                'fa-paper-plane-o',
+                'fa-anchor',
+                'fa-bolt',
+                'fa-bicycle',
+                'fa-leaf',
+                'fa-bomb'
                 ]
 let moveCount;
 let openCards = [];
@@ -65,7 +65,7 @@ function initGame(){
 //Creates the deck of cards and shuffles them and places them on the board.
 function setGameBoard(){
     const deckOfCards = document.querySelector('.deck');
-    const cardHTML = shuffle(cardIcons).map(function(card){
+    const cardHTML = shuffle(cardIcons.concat(cardIcons)).map(function(card){
         return generateCard(card);
     });
     deckOfCards.innerHTML = cardHTML.join('');
@@ -204,9 +204,11 @@ function win(){
     const endTime = calculateTime();
     modalText.appendChild(modalChild);
     if (starCount == 1){
-        modalChild.innerText = ` Time to complete the puzzle was ${endTime} and you earned ${starCount} star!`;
+        modalChild.innerText = ` You completed the game in ${moveCount} moves.
+                                Time to complete the puzzle was ${endTime} and you earned ${starCount} star!`;
     } else {
-        modalChild.innerText = ` Time to complete the puzzle was ${endTime} and you earned ${starCount} stars!`;
+        modalChild.innerText = ` You completed the game in ${moveCount} moves.
+                                Time to complete the puzzle was ${endTime} and you earned ${starCount} stars!`;
     }
     clearInterval(myTimer);
     modal.style.display = "block";
