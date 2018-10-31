@@ -21,13 +21,10 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 -The player earns 1 star if he/she matches all 16 cards in over 30 moves.
 
 
-## Game Dependencies/Libraries used to build project
-HTML:
+## Game Dependencies
 -Bootstrap
 -font-awesome
-
-Javascript:
--jQuery library
+-jQuery
 
 
 
