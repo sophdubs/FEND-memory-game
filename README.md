@@ -27,6 +27,10 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 -jQuery
 
 
+## How to run this game
+TODO: fill this in
+
+
 
 ## Resources
 Project rules and guidelines, as well as starter code for the gameboard all provided by Udacity and available at https://github.com/udacity/fend-project-memory-game
