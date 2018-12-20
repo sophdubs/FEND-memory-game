@@ -28,8 +28,8 @@ The game board consists of a 4 X 4 grid of "cards". The deck is comprised of 8 p
 
 
 ## How to run this game
-TODO: fill this in
-
+-First, ensure to properly download the ZIP file to your computer.\
+-Once this is complete, simply open index.html in your browser and the game is ready to play (provided you have addressed the Project Dependencies mentioned above).
 
 
 ## Resources
